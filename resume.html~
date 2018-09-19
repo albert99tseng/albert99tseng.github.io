@@ -3,26 +3,22 @@
         <head>
 	        <title> Albert Tseng </title>
         </head>
+
 	<body>
-	        <h1>
-		  Albert Tseng
-		</h1>
-		<h2>
-		  Education
-		</h2>
+	        <h1> Albert Tseng</h1>
+		<h2> Education</h2>
 		<p>Tufts University </p>
-		<h2>
-		  Experience 
-		</h2>
-		<p>
-		  Tufts Textbook Exchange Network (Medford, MA)
+		<h2> Experience </h2>
+		<p>  Tufts Textbook Exchange Network (Medford, MA)</p>
 		  <ul> 
 		    <li> designed online marketplace for selling/buying textbooks</li>
 		    <li> sold 600+ textbooks </li>
 		    <li> saved students $70,000+ </li>
 		  </ul>
-		  Big Brothers and Big Sisters of Massachseutts (Medford, MA)
-		    <li> 
-		</p>
+
+		<p> Big Brothers and Big Sisters of Massachseutts (Medford, MA) </p>
+		  <ul>
+		    <li> Help children facing adversity </li>
+		  </ul>
 	</body>
 </html>
