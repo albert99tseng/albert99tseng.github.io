@@ -1,5 +1,5 @@
 body {
-	font-family: Halvetica;
+	font-family: Papyrus;
 	background-color: pink;
 }
 
@@ -9,10 +9,6 @@ h1 {
 }
 
 p {
-	font-size: 24px;
-}
-
-
-h2 {
-	font-size: 24px;
+	font-size: 24px;	
+	text-align: center;
 }
