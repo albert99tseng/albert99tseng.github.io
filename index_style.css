@@ -1,19 +1,70 @@
 body{
-	font-family: Papyrus;
-	text-shadow: 3px 3px #ff0000;
-	background-color: pink;
+	margin: 0;
+	background-color: #D3D3D3;
 }
 
-h1{
-	font-size: 60px;
-	text-align: center;
+.title {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: middle;
+  top:0;
+  width: 100%;
+  position: sticky;
+  position: -webkit-sticky;
+  background-image: linear-gradient(to right, rgba(255,0,255,0), rgba(255,0,0,1));
 }
 
-p{
-	text-align: center;
-	outline-color: red;
+li {
+  float: left;
 }
 
-form{
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Big Caslon";
+  font-size: 18px;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.name{
 	text-align: center;
+	font-family: "Big Caslon";
+	font-size: 30px;
+	padding:150px 40px;
+	background-image: url("beach.jpg");
+	background-size: cover;
+	color: white;
+}
+
+
+.intro{
+	text-align: center;
+	font-family: "Big Caslon";
+	font-size: 18px;
+	float: left;
+  	width: 50%;
+}
+
+.intro_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2{
+	text-decoration: underline;
+	text-align: left;
+}
+
+footer{
+	text-align: center;
+
 }
