@@ -39,7 +39,7 @@ li a:hover:not(.active) {
 	font-family: "Big Caslon";
 	font-size: 30px;
 	padding:150px 40px;
-	background-image: url("beach.jpg");
+	background-image: url("pics/beach.jpg");
 	background-size: cover;
 	color: white;
 }
