@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	background-color: #D3D3D3;
+	background-color: white;
 }
 
 .navbar{
@@ -12,9 +12,9 @@ body{
   position: middle;
   top:0;
   width: 100%;
-  position: sticky;
-  position: -webkit-sticky;
   background-image: linear-gradient(to right, rgba(255,0,255,0), rgba(255,0,0,1));
+  overflow:hidden;
+
 }
 
 li {
@@ -32,7 +32,7 @@ li a{
 }
 
 li a:hover, .dropdown:hover .dropbtn{
-  background-color: #111;
+  background-color: black ;
 }
 
 .name{
@@ -89,7 +89,7 @@ footer{
 
 .dropdown-content {
   display: none;
- /* position:absolute;*/
+  position:absolute;
   background-color:grey;
   min-width: 200px;
   z-index: 1;

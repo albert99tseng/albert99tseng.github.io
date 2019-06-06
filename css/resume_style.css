@@ -12,8 +12,6 @@ body{
   position: middle;
   top:0;
   width: 100%;
-  position: sticky;
-  position: -webkit-sticky;
   background-image: linear-gradient(to right, rgba(255,0,255,0), rgba(255,0,0,1));
 }
 
