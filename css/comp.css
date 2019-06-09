@@ -180,7 +180,9 @@ footer{
 #projects > #gallery > #project-container {
     width: 40%;
     height: 20em;
-    margin-bottom: 3em;
+    margin-bottom: 10em;
+
+
 }
 
 #projects > #gallery > #project-container > h2 {
@@ -192,9 +194,18 @@ footer{
     height: 88%;
 }
 
-#projects > #gallery > #project-container > #img-container img {
+#projects > #gallery > #project-container > #img-container img{
     width: 100%;
-    height: 100%;
+    height: 110%;
+    object-fit: cover;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+#projects > #gallery > #project-container > #img-container video{
+    width: 100%;
+    height: 110%;
     object-fit: cover;
     box-sizing: border-box;
     border: 1px solid gray;
@@ -205,4 +216,8 @@ footer{
     opacity: 0.5;
     transition: 0.35s;
     cursor: pointer;
+}
+
+h4{
+  text-align: center;
 }
