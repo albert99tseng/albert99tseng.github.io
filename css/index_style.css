@@ -154,3 +154,14 @@ h3{
 .contacts{
   text-align: center;
 }
+
+.contacts > .verse{
+  text-align: center;
+  font-family: "Impact";
+  font-size: 18px;
+}
+.contact_body{
+  text-align: center;
+  font-family: "Big Caslon";
+  font-size: 22px;
+}
